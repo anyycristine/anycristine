@@ -1,0 +1,115 @@
+/*
+Limpar Formatações
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo Geral */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #D0BAD9;
+}
+
+/* Estilo de Titulos */
+
+    /* Cabeçalho */
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#header {
+    background-color: #25002E;
+    padding: 20px;
+    text-align: center;
+}
+
+#subtitulo {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Menu de Navegação */
+
+#menu {
+    padding: 10px;
+    justify-content: center;
+}
+
+#menu a:link, #menu a:visited{
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: #25002E;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+/* Conteúdo */
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h2 {
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #b78fc7;
+    border-width: 2px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#post {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #25002E;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h3 {
+    color: #25002E;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.destaque {
+    color: #25002E;
+    font-weight: bold;
+}
+
+.img-post{
+    width: 980px;
+    height: auto;
+}
+
+
+/* Rodapé */
+
+#footer {
+    clear:both;
+    background: #25002E;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    width: 980px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
